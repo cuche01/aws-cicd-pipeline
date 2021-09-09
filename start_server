@@ -1,3 +1,4 @@
+#!/bin/bash
 cd src && mvn clean install
 cd server/web/app && mvn jetty:run
 service nginx start
